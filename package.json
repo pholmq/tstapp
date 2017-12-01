@@ -1,0 +1,22 @@
+{
+  "name": "leaflettst",
+  "version": "1.0.0",
+  "description": "leaflettst",
+  "main": "index.js",
+  "dependencies": {
+    "leaflet": "^1.2.0",
+    "moment": "^2.19.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
